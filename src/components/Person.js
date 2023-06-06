@@ -1,4 +1,4 @@
-const Person = () => {
+const Person = ({persons}) => {
     return(<>
     Person
     </>)

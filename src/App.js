@@ -18,7 +18,7 @@ useEffect(hook,[])
     <div className="App">
       Hello World
       <br/>
-      <Person />
+      <Person persons = {persons}/>
     </div>
   );
 }
