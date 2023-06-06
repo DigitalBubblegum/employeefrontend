@@ -1,6 +1,12 @@
 const Person = ({persons}) => {
-    return(<>
-    Person
-    </>)
+    return (
+      <>
+        <ol>
+          {persons.map((person) => (
+            <li key={person.id}>{person.name}</li>
+          ))}
+        </ol>
+      </>
+    );
 }
 export default Person
