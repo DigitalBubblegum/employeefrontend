@@ -1,4 +1,6 @@
 const Person = ({persons}) => {
+  console.log('person person person');
+  console.log(persons.data[0]);
     return (
       <>
         <ol>

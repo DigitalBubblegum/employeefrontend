@@ -1,8 +1,8 @@
 import axios from 'axios'
-const baseUrl = '/api/records'
+const baseUrl = "http://localhost:3001/api/records";
 
 const getAll = () =>{
-    return axios.get(baseUrl)
+    return axios.get(baseUrl).then((response) => response.data);
 }
 
 // const create = newObject => {

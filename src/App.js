@@ -6,7 +6,6 @@ const App = () => {
   const [persons, setPersons] = useState([])
   //effects
   const fetchPersons = () => {
-    console.log('fetch person code from mongo code here');
     communications.getAll().then((response) => {
       console.log(response)
       setPersons(response);
