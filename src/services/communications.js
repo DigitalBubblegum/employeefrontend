@@ -1,6 +1,6 @@
 import axios from 'axios'
 const baseUrl = "http://localhost:3001/api/records";
-
+//can't figure out why it's not working
 const getAll = () =>{
     return axios.get(baseUrl).then((response) => response.data);
 }
