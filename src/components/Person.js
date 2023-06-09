@@ -1,5 +1,5 @@
 const Person = ({personsToShow }) => {
-  console.log("person person person");
+  console.log("person render");
   return (
     <>
       <ol>
